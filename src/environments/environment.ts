@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  catsUrl: "http://shibe.online/api/cats",
+  dogsUrl: "https://random.dog/woof.json",
+  birdsUrl: "http://shibe.online/api/birds",
+  numOfCardsInDeck: 5,
 };
 
 /*

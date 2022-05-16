@@ -1,1 +1,15 @@
-<p>deck works!</p>
+<div class="container">
+  <div class="hand">
+    <div class="card" *ngFor="let card of cards; let i = index">
+      <img
+        [attr.id]="playerName + 'card' + i"
+        (dragstart)="startDragHaandle($event)"
+        draggable="true"
+        [src]="card.imageUrl"
+        width="200"
+        height="200"
+        alt=""
+      />
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  .hand {
+    display: flex;
+    flex-direction: row;
+    .card {
+      border: 2px solid lightblue;
+      border-radius: 6px;
+      margin: 2px;
+      height: fit-content;
+    }
+  }
+}

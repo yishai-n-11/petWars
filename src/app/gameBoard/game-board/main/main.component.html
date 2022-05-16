@@ -1,1 +1,14 @@
-<p>main works!</p>
+<div class="container">
+  <div
+    class="player1Card"
+    id="player1Card"
+    (dragover)="dragoverHandle($event)"
+    (drop)="dropHandler($event)"
+  ></div>
+  <div
+    class="player2Card"
+    id="player2Card"
+    (dragover)="dragoverHandle($event)"
+    (drop)="dropHandler($event)"
+  ></div>
+</div>
